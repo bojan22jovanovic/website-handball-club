@@ -1,0 +1,294 @@
+body {
+  background : url("img/handball_ball.jpg") no-repeat fixed;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:"Orbitron";
+  font-size: 13px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  position: relative;
+}
+
+.div_nav {
+  -webkit-box-shadow: 0px 0px 12px 0px #FF2E2E; 
+  box-shadow: 0px 0px 12px 0px #FF2E2E;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.5);
+  width: fit-content;
+}
+
+.navbar {
+  margin: 0;
+}
+
+form {
+  margin-top: 70px;
+}
+
+.div-form{
+  margin-top: 120px;
+}
+
+.welcome {
+  color: white; 
+  font-weight: 700; 
+  font-style: italic;
+} /* ...u header.php */
+
+/*MAIN LOGIN/REGISTRATION BUTTONS DECORATION----------------------------------------------------------*/
+.div_login li {
+  margin: 5px 3px 5px 0px;
+  border-right: 1px solid lightseagreen;
+}
+
+.div_login li:last-child {
+  border-right: none;
+}
+
+.div_login a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  padding: 8px;
+}
+
+.div_login a:hover {
+  color: lightseagreen;
+}
+
+.div_login img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: transform .3s ease-in-out;
+  margin-right: 5px;
+}
+
+.div_login a:hover img {
+  transform: rotate(360deg);
+}
+
+/*END*/
+
+/*MAIN NAV BUTTONS DECORATION----------------------------------------------------------*/
+
+.div_nav li {
+  margin: 10px 0px 10px 15px;
+  border-right: 2px solid #FF2E2E;
+}
+
+.div_nav li:last-child {
+  border-right: none;
+}
+
+.div_nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  padding: 15px 25px 15px 10px;
+}
+
+.div_nav a:hover {
+  color: #FF2E2E;
+}
+
+.div_nav img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: transform .3s ease-in-out;
+  margin-right: 15px;
+}
+
+.div_nav a:hover img {
+  transform: rotate(360deg);
+}
+
+/*END*/
+
+
+/*h1----------------------------------------------*/
+h1 {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color:white;
+    margin-top: 20%;
+    text-shadow: 0px 5px 4px black;
+}
+
+.span1 {
+    font-family: "Wallpoet";
+    font-size:6vw;
+    letter-spacing: 5px;
+    font-style: normal;
+    padding: 3px;
+    color: #FF2E2E;
+}
+
+.span2 {
+  font-size:2vw;
+}
+
+table {
+  margin-top: 10%; 
+  background-color:rgba(0, 0, 0, 0.3); 
+  border-radius: 10px; 
+  font-size: 10px;
+}
+
+/* MAIN SEKCTION ------------------------------------------*/
+.divs_bk {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.mtb100 {
+  margin: 100px 0 100px 0;
+  color: white;
+}
+
+hr {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+h4, h5 {
+  text-align: center;
+  text-decoration: underline;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+.side {
+  margin-top: 100px;
+}
+
+.side img {
+  width: 100%;
+  height: 100%;
+}
+
+.we_are {
+  margin-bottom: 30px;
+}
+
+
+.div_hala {
+  position: relative;
+}
+
+.div_hala img {
+  border: 3px solid #FF2E2E;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.btn_main {
+  width:220px; 
+  margin: 5px auto; 
+}
+
+.btn_main a {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  padding: 15px 25px 15px 10px;
+}
+
+.btn_main a:hover {
+  color: #FF2E2E;
+}
+
+.btn_main a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  transition: transform .3s ease-in-out;
+  margin-right: 15px;
+}
+
+.btn_main a:hover img {
+  transform: rotate(360deg);
+}
+
+.div_hala p {
+padding-left: 10px;
+}
+
+
+/* Takmičenja */
+.leagues img {
+  width: 100%;
+  height: 100%;
+}
+
+.leagues div {
+  width: 50px;
+  margin: 0 auto;
+}
+
+/* ABOUT PAGE ----------------------------------------------------------- */
+
+.div_about {
+  margin-top: 150px;
+  color: white;
+}
+
+
+
+/* FOOTER --------------------------------------------------------------- */
+
+.div_footer {
+ background-color: #FF2E2E;
+ color: white;
+ margin-top: 100px;
+}
+
+.div_footer h5 {
+  text-align: left;
+  padding: 0;
+  margin: 15px 0 25px 0;
+ }
+
+footer a {
+  display: block;
+  padding: 10px 0;
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: black;
+}
+
+.public_net span:hover, .links_nav a:hover {
+  position: relative;
+  left: 10px;
+}
+
+.public_net img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
